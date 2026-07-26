@@ -5,21 +5,21 @@ class CarGoClean < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/dcchuck/car-go-clean/releases/download/v0.2.0/car-go-clean-aarch64-apple-darwin.tar.xz"
-      sha256 "59e246ddd0987cf83b4bbb72ece8f2c4afe30d484a4658f1b1cc0257f232a895"
+      sha256 "69b1f53708094a364b83ffaecbbe603c2df5be79cd575ecae9e05244a31270ca"
     end
     if Hardware::CPU.intel?
       url "https://github.com/dcchuck/car-go-clean/releases/download/v0.2.0/car-go-clean-x86_64-apple-darwin.tar.xz"
-      sha256 "c543a3e0d3155c7ab3087049f77aff22c22d4d866dd31a8f3d89231b9e937594"
+      sha256 "8762debe4e5bf26e3413c763f77f1caa94ef01ac8a7334acdfebbf6e32718ba2"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/dcchuck/car-go-clean/releases/download/v0.2.0/car-go-clean-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "ae25fad21cdfdc4dc438312518924af82f61271eadf9e9d3f2a12f95870baf41"
+      sha256 "7d102a33494080264c5d14b9047dd638e008624d8d63aae189ca3525567422b6"
     end
     if Hardware::CPU.intel?
       url "https://github.com/dcchuck/car-go-clean/releases/download/v0.2.0/car-go-clean-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "18e06c150f02b8110d4414ead46fbc4d2484fe81b5ac24df6bbdd252042d4497"
+      sha256 "6a10673e9a813978b36e2520fb2a29af8b4e5cd73d5086dfada8cfeeca07a796"
     end
   end
   license "MIT"
