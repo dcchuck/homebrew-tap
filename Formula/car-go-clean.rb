@@ -5,25 +5,25 @@ class CarGoClean < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/dcchuck/car-go-clean/releases/download/v0.2.0/car-go-clean-aarch64-apple-darwin.tar.xz"
-      sha256 "73f8197ebb05d70476acbce5da72b9380b251334ab8aec4f430ef249619442f1"
+      url "https://github.com/dcchuck/car-go-clean/releases/download/v0.3.0/car-go-clean-aarch64-apple-darwin.tar.xz"
+      sha256 "012bfb5b9cb6d979a6e2abb027b0c9941c5354574511ff49f8dfd5ec1134ae59"
     end
 
     on_intel do
-      url "https://github.com/dcchuck/car-go-clean/releases/download/v0.2.0/car-go-clean-x86_64-apple-darwin.tar.xz"
-      sha256 "b7e074b7e2642484bd098bfa35ebfcb617ca3cf01f009b58ea7ca2581d750b5d"
+      url "https://github.com/dcchuck/car-go-clean/releases/download/v0.3.0/car-go-clean-x86_64-apple-darwin.tar.xz"
+      sha256 "48c048c243864e54a646b224c43923433dd1cdad14b5e0d8feafde3ec4ba9c58"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dcchuck/car-go-clean/releases/download/v0.2.0/car-go-clean-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "b6c809437f29b890b00aeb8cab3f21467b877752f2a57f11eb58d9326605217d"
+      url "https://github.com/dcchuck/car-go-clean/releases/download/v0.3.0/car-go-clean-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "2adbbbe43f0b56bd2591656e36dcfa8c60e4edda80f6cdd0d860648bf2a14f81"
     end
 
     on_intel do
-      url "https://github.com/dcchuck/car-go-clean/releases/download/v0.2.0/car-go-clean-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "cfc2475f1676c36daf8d0de9df16e211b098309245825189f70a7da55fbe869d"
+      url "https://github.com/dcchuck/car-go-clean/releases/download/v0.3.0/car-go-clean-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "6f2a716b2f2c9f7f238d122f087fb2db1d275e02fea960bb44ad494395601565"
     end
   end
 
