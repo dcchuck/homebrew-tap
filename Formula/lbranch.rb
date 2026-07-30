@@ -3,8 +3,8 @@ class Lbranch < Formula
 
   desc "Git utility that shows recently checked-out branches in chronological order"
   homepage "https://github.com/dcchuck/lbranch"
-  url "https://files.pythonhosted.org/packages/0e/82/b731933c4557e7779ac8cf7695f3c6ae5a710a113b42c1baf46c649bf449/lbranch-0.1.4.tar.gz"
-  sha256 "14b1617d14768e6f1bc710c20a2b014710b67623b313788ec92d886ff5b44671"
+  url "https://files.pythonhosted.org/packages/6b/1e/10996b4a5cf89cf38fc9a977f5b6c7f76cff5b42ffd9dabea7c51db1f8b2/lbranch-0.1.5.tar.gz"
+  sha256 "14422082a9b94d04f05433b1935a2fd16098dd46a3e395ad87d508d9caedd372"
   license "MIT"
 
   depends_on "python3"
@@ -14,6 +14,6 @@ class Lbranch < Formula
   end
 
   test do
-    system "#{bin}/lbranch", "--version"
+    system bin/"lbranch", "--version"
   end
 end
